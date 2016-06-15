@@ -1,5 +1,5 @@
-module.exports = angular.module('dmSpinner.component', [])
-	.component('dmSpinner', {
+module.exports = angular.module('angularSpinners', [])
+	.component('spinner', {
 		controller: 'SpinnerController',
 		controllerAs: 'svm',
 		transclude: true,
